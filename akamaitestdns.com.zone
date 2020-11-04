@@ -1,0 +1,10 @@
+akamaitestdns.com.  IN  SOA   ns.akamaitestdns.com. username.akamaitestdns.com. ( 2007120710 1d 2h 4w 1h )
+akamaitestdns.com.  IN  NS    ns                    ; ns.akamaitestdns.com is a nameserver for akamaitestdns.com
+akamaitestdns.com.  IN  NS    ns.somewhere.akamaitestdns. ; ns.somewhere.akamaitestdns is a backup nameserver for akamaitestdns.com
+akamaitestdns.com.  IN  MX    10 mail.akamaitestdns.com.  ; mail.akamaitestdns.com is the mailserver for akamaitestdns.com
+akamaitestdns.com.  IN  A     192.0.2.1             ; IPv4 address for akamaitestdns.com
+              IN  AAAA  2001:db8:10::1        ; IPv6 address for akamaitestdns.com
+ns            IN  A     192.0.2.2             ; IPv4 address for ns.akamaitestdns.com
+              IN  AAAA  2001:db8:10::2        ; IPv6 address for ns.akamaitestdns.com
+www           IN  CNAME akamaitestdns.com.          ; www.akamaitestdns.com is an alias for akamaitestdns.com
+mail          IN  A     192.0.2.3             ; IPv4 address for mail.akamaitestdns.com
