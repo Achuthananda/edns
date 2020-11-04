@@ -1,0 +1,10 @@
+akamaidns.com.  IN  SOA   ns.akamaidns.com. username.akamaidns.com. ( 2007120710 1d 2h 4w 1h )
+akamaidns.com.  IN  NS    ns                    ; ns.akamaidns.com is a nameserver for akamaidns.com
+akamaidns.com.  IN  NS    ns.somewhere.akamaidns. ; ns.somewhere.akamaidns is a backup nameserver for akamaidns.com
+akamaidns.com.  IN  MX    10 mail.akamaidns.com.  ; mail.akamaidns.com is the mailserver for akamaidns.com
+akamaidns.com.  IN  A     192.0.2.1             ; IPv4 address for akamaidns.com
+              IN  AAAA  2001:db8:10::1        ; IPv6 address for akamaidns.com
+ns            IN  A     192.0.2.2             ; IPv4 address for ns.akamaidns.com
+              IN  AAAA  2001:db8:10::2        ; IPv6 address for ns.akamaidns.com
+www           IN  CNAME akamaidns.com.          ; www.akamaidns.com is an alias for akamaidns.com
+mail          IN  A     192.0.2.3             ; IPv4 address for mail.akamaidns.com
